@@ -29,8 +29,8 @@
                         "namePrefix": "sql",
                         "size": "Standard_DS3_v2",
                         "computerNamePrefix": "sql",
-                        "adminUsername": "adminUser",
-                        "adminPassword": "testPassw0rd!23",
+                        "adminUsername": "adminDemo",
+                        "adminPassword": "Practia$$123",
                         "osType": "windows",
                         "imageReference": {
                             "publisher": "MicrosoftSQLServer",
@@ -63,7 +63,7 @@
                                 "autoUpgradeMinorVersion": true,
                                 "settings": {
                                     "AutoTelemetrySettings": {
-                                        "Region": "Central US"
+                                        "Region": "East US 2"
                                     },
                                     "AutoPatchingSettings": {
                                         "PatchCategory": "WindowsMandatoryUpdates",
@@ -113,8 +113,8 @@
                                 "protectedSettings": {
                                     "configurationArguments": {
                                         "SqlUserCredentials": {
-                                          "userName": ".\\adminUser",
-                                          "password": "testPassw0rd!23"
+                                          "userName": ".\\adminDemo",
+                                          "password": "Practia$$123"
                                         }
                                     }
                                 }
